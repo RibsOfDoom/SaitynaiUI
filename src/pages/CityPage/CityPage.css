@@ -1,0 +1,124 @@
+.city-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.city-description {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Water list as vertically stacked big buttons */
+.water-list {
+  display: flex;
+  flex-direction: column; /* vertical stack */
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+.water-link {
+  text-decoration: none;
+}
+
+.water-link .action-btn {
+  width: 100%;          /* full width */
+  font-size: 1.2rem;    /* bigger text */
+  padding: 1rem;        /* bigger buttons */
+}
+
+/* City action buttons container */
+.city-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Reuse standard action-btn style for all buttons */
+.action-btn {
+  padding: 0.5rem 1rem;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.action-btn:hover {
+  background-color: #276b46;
+}
+
+/* Modal styles remain unchanged */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.modal input,
+.modal textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.water-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.water-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.water-btn {
+  padding: 1rem;
+  font-size: 1.2rem;
+  width: 100%;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.water-btn:hover {
+  background-color: #276b46;
+}

@@ -1,0 +1,37 @@
+/* src/pages/RegistrationPage.css */
+.registration-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* stack elements vertically */
+  align-items: center;    /* horizontal centering */
+  padding-top: 2rem;      /* push content slightly from top */
+  gap: 2rem;              /* optional spacing between elements */
+}
+
+.registration-form {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.registration-form input {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.registration-form button {
+  padding: 0.75rem;
+  background-color: #2e8b57; /* green theme */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.registration-form button:hover {
+  background-color: #276b46; /* slightly darker green on hover */
+}

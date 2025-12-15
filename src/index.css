@@ -1,0 +1,26 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6f5e6; /* light green page background */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* stack elements vertically */
+  align-items: center;    /* horizontal centering */
+  padding-top: 2rem;      /* push content slightly from top */
+  gap: 2rem;              /* optional spacing between elements */
+}
+
